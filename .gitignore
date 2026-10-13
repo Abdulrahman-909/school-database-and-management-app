@@ -1,0 +1,22 @@
+# Python virtual environment and cache
+.venv/
+__pycache__/
+*.pyc
+
+# Secrets and local configuration
+.env
+
+# Local databases and school data
+*.db
+*.sqlite
+*.sqlite3
+data/
+exports/
+
+# Generated build files
+build/
+dist/
+
+# IDE settings
+.idea/
+app_settings.json
